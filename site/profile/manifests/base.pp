@@ -1,6 +1,7 @@
 class profile::base{
-  user {'admin':
-    ensure ==>present,
+  user {'tibu':
+    ensure =>present,
+    group =>['wheel'],
   }
   
 }
