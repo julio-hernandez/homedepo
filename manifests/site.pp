@@ -8,3 +8,7 @@ node default{
     content => 'This is another test for th vagrant user',
   }
 }
+
+node 'master.puppet.vm'{
+  include role::master_server
+}
