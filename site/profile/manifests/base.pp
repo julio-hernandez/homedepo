@@ -1,5 +1,5 @@
 class profile::base{
-  user {'tibu':
+  user {'licha':
     ensure =>present,
   }
   
