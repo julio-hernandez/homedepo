@@ -18,7 +18,7 @@ node 'master.nis-puppet.vm'{
 }
 
 node /^web/{
-  include role::apps_server
+  include role::app_server
 }
 
 node /^db/{
