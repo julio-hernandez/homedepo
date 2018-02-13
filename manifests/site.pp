@@ -15,6 +15,10 @@ node 'master.puppet.vm' {
     ensure => file,
     content =>$fqdn,
   }
+  file { '/root/doublequotes.txt':
+    ensure => file,
+    content => "Welcome to ${fqdn}\n",
+  }
 }
 
 node 'master.nis-puppet.vm'{
