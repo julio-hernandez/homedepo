@@ -34,5 +34,5 @@ node /^db/{
 }
 
 node 't61'{
-  include role::
+  include role::lenovo_client
 }
