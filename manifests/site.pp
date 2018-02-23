@@ -32,3 +32,7 @@ node /^web/{
 node /^db/{
   include role::db_server
 }
+
+node 't61'{
+  include role::
+}
